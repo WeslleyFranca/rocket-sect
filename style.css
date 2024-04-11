@@ -1,0 +1,135 @@
+/* font-family: 'JetBrains Mono', monospace;
+font-family: 'Open Sans', sans-serif; 
+
+Seus dados estão protegidos?
+A informação é fundamental e de extrema importância para qualquer empresa.
+Início
+Serviços
+Contato
+
+Aqui vai um texto como se fosse uma empresa de segurança da informação apresentando o seu produto e com o texto todo estilizado.
+para mais informações nos siga no instagram @rocketsect
+
+*/
+
+:root{
+    --cor-texto-branco: #FFFFFF;
+    --cor-texto-cinza: #7D7987;
+    --cor-texto-extra: #00BFA6;
+    --cor-background: #2F2E41;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-texto-branco);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.page {
+    width: 1090px;
+    margin: 70px auto 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--cor-texto-branco);
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--cor-texto-extra);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+span {
+    color: var(--cor-texto-extra);
+}
+
+span, strong {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: var(--cor-texto-cinza);
+}
+
+p + p {
+    margin-top: 40px;
+}
+
+p, footer {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.line {
+    width: 560px;
+    height: 0;
+    border: 1px solid var(--cor-texto-extra);
+
+    margin: 0 auto 10px;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+
+    text-align: center;
+}
+
+footer a {
+    color: var(--cor-texto-branco);
+    text-decoration: none;
+}
+
+.cadea {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
